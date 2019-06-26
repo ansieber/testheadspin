@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng IOS Suppression">
+
+	<test name="Test 12 Suppresion de compte">
+		<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+	 		<class name="tests.Test12_Suppression_Compte" />
+		</classes>
+	</test>
+	
+</suite>
+	

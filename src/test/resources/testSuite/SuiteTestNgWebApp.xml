@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite" parallel="false" preserve-order="true">
+	<parameter name="SUT" value="${env}" />	
+	<suite-files>
+		<!-- <suite-file path="SuiteTestNgWebAppCRUD.xml" /> -->
+		<suite-file path="SuiteTestNgAndroidWebAppCRUD.xml" />
+ 	</suite-files>	
+</suite>

@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng Android Google Map">
+
+  	<test name="Test 18 Onglet maps point d'intérêt">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+	 		<class name="tests.Test18_Onglet_MAPS_Point_Interet" />
+		</classes>
+	</test>	
+	
+ 	<test name="Test 19 Modification point d'intérêt">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+	 		<class name="tests.Test19_Modifier_Point_Interet" />
+		</classes>
+	</test>
+			
+</suite>

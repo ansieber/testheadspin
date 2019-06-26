@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng Android suppression">
+
+	<test name="Test 12 Suppression du compte">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+			<class name="tests.Test12_Suppression_Compte" />
+		</classes>
+	</test>	
+
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng Android Inscription">
+	
+ 	<test name="Test 13 Inscription QR Code">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.BuyProduct" />
+		</classes>
+	</test>
+</suite>

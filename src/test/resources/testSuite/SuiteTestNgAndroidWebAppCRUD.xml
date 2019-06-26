@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng Remote WebApp">
+	
+	<test name="WebApp_Test_QRCOde_Inscription">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.WebApp_Test_QRcode_Inscription" />
+		</classes>
+	</test>
+ 	
+	<test name="WebApp_Test_modification_profile">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.WebApp_Test_ModificationInfosProfil" />
+		</classes>
+	</test>
+	
+ 	<test name="WebApp_Test_CRUD_Discussion">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.WebApp_Test_CRUD_Discussion" />
+		</classes>
+	</test>
+	
+ 	<test name="WebApp_Test_Repondre_Discussion">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.WebApp_Test_Repondre_Discussion" />
+		</classes>
+	</test>
+ 	
+ 	<test name="WebApp_Test_Repondre_Annonce">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.WebApp_Test_Repondre_Annonce_et_Reponse_inversee" />
+		</classes>
+	</test>
+ 	
+ 	<test name="WebApp_Test_Reservation_Salle_Partagee">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.WebApp_Test_Reservation_Salle_Partagee_SMART" />
+		</classes>
+	</test>
+
+	<test name="WebApp_Test_MDP_Oubliee">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.WebApp_Test_MDP_Oublie_et_Reconnexion" />
+		</classes>
+	</test>
+</suite>

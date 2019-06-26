@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng iOS Reponse">
+
+	<test name="Test 08 Répondre à une discussion">
+	<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.Test08_Repondre_Discussion" />
+		</classes>
+	</test>
+	
+	<test name="Test 10 Inscription event sur créneau déjà pris">
+	<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.Test10_Inscription_Event_CreneauPris" />
+		</classes>
+	</test>
+
+</suite>

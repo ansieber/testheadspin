@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng iOS SMART">
+
+	<test name="Test 09 Réserver salle SMART">
+	<parameter name="PlatForm" value="APPIUM_IOS_APPLICATION" />
+		<classes>
+			<class name="tests.Test09_Reserver_SallePartagee_SMART" />
+		</classes>
+	</test>
+	
+</suite>

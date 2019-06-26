@@ -1,0 +1,7 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestSuite">
+	<parameter name="SUT" value="${env}" />		
+	<suite-files>
+  		<suite-file path="SuiteTestNgIosInscription.xml" />
+ 	</suite-files> 	
+</suite>
