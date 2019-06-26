@@ -1,0 +1,12 @@
+ {
+ 	"title" : "Titre evenement de test",
+ 	"description" : "Description evenement de test sur adresse",
+ 	"place" : "adresse",
+ 	"dateStart" : "12/02/2019",
+ 	"hourStart" : "13",
+ 	"minuteStart" : "15",
+ 	"dateEnd" : "13/02/2019",
+ 	"hourEnd" : "13",
+ 	"joinPhoto" : true,
+ 	"minuteEnd" : "10"
+ }

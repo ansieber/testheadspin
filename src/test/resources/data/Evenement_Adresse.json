@@ -1,0 +1,13 @@
+ {
+ 	"title" : "Titre d'evenement de test",
+ 	"description" : "Description d'evenement de test sur adresse",
+ 	"place" : "adresse - Stade Chaban Delmas",
+ 	"dateStart" : "12/02/2019",
+ 	"hourStart" : "13",
+ 	"minuteStart" : "15",
+ 	"dateEnd" : "13/02/2019",
+ 	"hourEnd" : "13",
+ 	"joinPhoto" : false,
+ 	"minuteEnd" : "15"
+ 	
+ }

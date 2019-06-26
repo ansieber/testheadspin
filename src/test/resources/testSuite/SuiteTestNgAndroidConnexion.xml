@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng Android Connexion">
+
+	<test name="Test 01 Connexion">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+	 		<class name="tests.Test01_Connexion" />
+		</classes>
+	</test>
+	
+</suite>
+	

@@ -1,0 +1,12 @@
+ {
+ 	"title" : "Titre d'evenement de test",
+ 	"description" : "Description d'evenement de test sur point d'interet",
+ 	"place" : "point d'interet",
+ 	"dateStart" : "10/02/2019",
+ 	"hourStart" : "13",
+ 	"minuteStart" : "15",
+ 	"dateEnd" : "11/02/2019",
+ 	"hourEnd" : "14",
+ 	"minuteEnd" : "15",
+ 	"joinPhoto" : false
+ }

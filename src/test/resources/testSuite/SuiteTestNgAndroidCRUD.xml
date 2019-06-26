@@ -1,0 +1,52 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng Android CRUD">
+   
+	<test name="Test 02 CRUD Annonce">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+			<class name="tests.Test02_CRUD_Annonce" />
+		</classes>
+	</test>	
+	
+ 	<test name="Test 03 CRUD Evenement Salle Partagee">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+			<class name="tests.Test03_CRUD_Evenement_Salle_Partagee" />
+		</classes>
+	</test>
+ 	 
+	<test name="Test 04 CRUD Discussion">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+			<class name="tests.Test04_CRUD_Discussion" />
+		</classes>
+	</test>
+	<!-- 
+	<test name="Test 11 CRUD Evenement Point interet">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+			<class name="tests.Test11_CRUD_Evenement_Point_Interet" />
+		</classes>
+	</test>
+
+ 	<test name="Test 15 CRUD Annonce avec pièce jointe">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+	 		<class name="tests.Test15_CRUD_Annonce_PJ" />
+		</classes>
+	</test>
+
+  	<test name="Test 16 CRUD Evenement avec pièce jointe">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+	 		<class name="tests.Test16_CRUD_Evenement_PJ" />
+		</classes>
+	</test>
+
+ 	<test name="Test 17 CRUD Discussion avec pièce jointe">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+	 		<class name="tests.Test17_CRUD_Discussion_PJ" />
+		</classes>
+	</test>-->
+</suite>

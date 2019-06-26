@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite Testng Android Changement profil">
+
+ 	<test name="Test 05 MDP oublie">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+			<class name="tests.Test05_Clique_MDP_Oublie" />
+		</classes>
+	</test>
+
+   	<test name="Test 05 Connexion sur la boite mail">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_CHROME" />
+		<classes>
+			<class name="tests.Test05_Connexion_Email_MDP_Oublie" />
+		</classes>
+	</test>
+	
+	 <test name="Test 05 Connexion et modification mdp">
+		<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+			<class name="tests.Test05_Connexion_et_Modification_MDP" />
+		</classes>
+	</test> 
+
+	<test name="Test 06 Changement infos compte">
+	<parameter name="PlatForm" value="APPIUM_ANDROID_APPLICATION" />
+		<classes>
+			<class name="tests.Test06_Changement_InfosPerso" />
+		</classes>
+	</test>
+
+</suite>

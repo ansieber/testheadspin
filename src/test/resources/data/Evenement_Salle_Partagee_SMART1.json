@@ -1,0 +1,13 @@
+ {
+ 	"title" : "evenement en salle partagee",
+ 	"description" : "Description d'evenement de test sur salle partagee",
+ 	"place" : "salle partagee - public",
+ 	"dateStart" : "09/01/2019",
+ 	"hourStart" : "13",
+ 	"minuteStart" : "15",
+ 	"dateEnd" : "10/01/2019",
+ 	"hourEnd" : "13",
+ 	"nbrParticipants" : "7",
+ 	"joinPhoto" : false,
+	"minuteEnd" : "15"
+ }

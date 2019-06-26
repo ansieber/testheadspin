@@ -1,0 +1,8 @@
+{
+	"email"			: "testchangeMdP@mailinator.com",
+	"password"		: "",
+	"newPassword"	: "test1234",
+	"lastName"		: "compte",
+	"firstName" 	: "principal",
+	"phoneNumber" 	: "0612345678"
+}
